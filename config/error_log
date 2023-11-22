@@ -1,0 +1,120 @@
+[29-Nov-2022 02:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[29-Nov-2022 15:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[30-Nov-2022 22:09:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[07-Dec-2022 21:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[25-Dec-2022 19:50:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[29-Dec-2022 12:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[09-Jan-2023 18:36:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[09-Jan-2023 22:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[11-Jan-2023 22:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[25-Jan-2023 05:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[25-Jan-2023 05:01:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[31-Jan-2023 05:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[03-Feb-2023 02:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[05-Feb-2023 02:22:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[10-Feb-2023 12:57:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[10-Feb-2023 12:57:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[13-Feb-2023 22:19:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[15-Feb-2023 19:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[15-Feb-2023 19:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[20-Feb-2023 20:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[20-Feb-2023 23:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[23-Feb-2023 04:24:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[23-Feb-2023 04:24:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[23-Feb-2023 04:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[26-Feb-2023 03:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[28-Feb-2023 13:32:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[28-Feb-2023 13:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[03-Mar-2023 07:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[04-Mar-2023 10:44:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
+[05-Mar-2023 04:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/config/cache.php on line 18
