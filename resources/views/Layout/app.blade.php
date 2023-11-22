@@ -19,12 +19,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
     {{--    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">--}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="{{asset('css/responsive.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{asset('css/fontawesome.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{asset('css/animate.min.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{asset('css/datatables.min.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{asset('css/toastr.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/overwrite.css') }}" rel="stylesheet" type="text/css">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"

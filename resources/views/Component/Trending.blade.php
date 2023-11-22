@@ -1,4 +1,4 @@
-<div id="trending" class="section-container ">
+<div id="trending" class="section-container modify-trending">
     <div class="keywords mt-2 mb-2">
         <label style="margin-right: 10px;" class="f-18">ট্রেন্ডিং: </label>
         <div id="trendingItems" class="d-inline-block">

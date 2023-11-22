@@ -1,4 +1,4 @@
-<div id="top-nav" class="bg-light border-top border-bottom shadow-sm">
+<div id="top-nav" class="bg-top-menu border-top border-bottom shadow-sm">
     <nav class="navbar section-container navbar-light navbar-expand-md  d-none d-md-block">
         <div class="container-fluid">
             <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">

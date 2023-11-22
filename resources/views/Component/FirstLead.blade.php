@@ -1,11 +1,21 @@
-<div id="layout_top_add" class="addBanner mt-3 d-flex justify-content-center">
+    <div id="layout_top_add" class="addBanner mt-3 d-flex justify-content-center">
     <!-- TOP Layout Advertise -->
 </div>
 
 
 
 <div class="section-container">
-    <div id="firstLead" class="mt-3 row  mb-3 d-flex justify-content-between">
+    <div id="firstLead" class="mt-3 row  mb-3 d-flex justify-content-between">        
+
+        <div href="#" class="flLead col-12 col-sm-12 col-md-12 col-lg-6">
+            <div id="mainLead">
+                <!--MAIN FIRST LEAD NEWS -->
+            </div>
+            <div class="titleNews row border-top" id="bottomMainLead">
+               <!--BOTTOM MAIN LEAD -->
+            </div>
+        </div>
+
         <div class="flLeft border-right col-12 col-sm-12 col-md-6 col-lg-3" >
             <div class="3news titleNews2" id="sideLeadNews">
                 <!-- LEFT FIRST LEAD NEWS -->
@@ -14,15 +24,6 @@
             <!--               Advertise   --->
             <div id="home_lead_left" class="advertise mt-4 mb-3 text-center overflow-hidden">
 
-            </div>
-        </div>
-
-        <div href="#" class="flLead col-12 col-sm-12 col-md-12 col-lg-6">
-            <div id="mainLead">
-                <!--MAIN FIRST LEAD NEWS -->
-            </div>
-            <div class="titleNews row border-top" id="bottomMainLead">
-               <!--BOTTOM MAIN LEAD -->
             </div>
         </div>
 
