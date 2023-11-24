@@ -1,6 +1,6 @@
 <div class="mt-5 d-md-block d-none">
     <div class="section-container">
-        <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+        <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
             <h4 class="m-0">ভিডিও</h4>
 {{--            <button class="btn btn-danger rounded-pill">সকল</button>--}}
         </div>

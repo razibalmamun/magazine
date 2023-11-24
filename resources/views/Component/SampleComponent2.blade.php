@@ -1,7 +1,7 @@
 <div class="row section-container">
     <div class="col-12 col-sm-6 col-md-6 order-md-2 order-sm-2 order-lg-1 col-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">স্বাস্থ্য</h4>
                 <ul class="nav nav-tabs" role="tablist" id="HealthPills">
                     <li class="nav-item">
@@ -28,7 +28,7 @@
     </div>
     <div class="col-12 col-sm-12 order-sm-1 col-md-12 col-lg-6 order-md-1 order-lg-2">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0"> প্রবাস </h4>
                 <ul class="nav nav-tabs" role="tablist" id="ForeignPills">
                     <li class="nav-item">
@@ -54,7 +54,7 @@
     </div>
     <div class="col-12 col-sm-6 order-sm-3 col-md-6  col-lg-3 order-md-3 order-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">চাকরি</h4>
                 <ul class="nav nav-tabs" role="tablist" id="JobsPills">
                     <li class="nav-item">

@@ -1,7 +1,7 @@
 <div class="row section-container">
     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">লাইফ-স্টাইল</h4>
                 <ul class="nav nav-tabs" role="tablist" id="LifeStylePills">
                     <li class="nav-item">
@@ -27,7 +27,7 @@
     </div>
     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">তথ্য-প্রযুক্তি</h4>
                 <ul class="nav nav-tabs" role="tablist" id="TechnologyPills">
                     <li class="nav-item">
@@ -52,7 +52,7 @@
     </div>
     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">ধর্ম</h4>
                 <ul class="nav nav-tabs" role="tablist" id="RigionPills">
                     <li class="nav-item">
@@ -77,7 +77,7 @@
     </div>
     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">সারাদেশ</h4>
                 <ul class="nav nav-tabs" role="tablist" id="SaradeshPills">
                     <li class="nav-item">

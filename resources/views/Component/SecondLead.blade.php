@@ -1,5 +1,11 @@
 <div id="secondLead" class="section-container">
-    <div class="row">
+    <div class="row">       
+        <div class=" col-12 sm-6 col-md-8 col-lg-9">
+            <div class="row" id="secondLeadNews">
+                <!--SECOND LEAD NEWS -->
+            </div>
+        </div>
+
         <div  class="endNews col-12 sm-6 col-md-4 col-lg-3">
             <!-- Nav pills -->
             <ul class="nav border-bottom  mb-2  pb-1 pt-1 border-top nav-pills">
@@ -28,12 +34,6 @@
             {{--                Advertise--}}
             <div id="home_second_lead_left" class="advertise mt-5 mb-3 text-center overflow-hidden">
 
-            </div>
-        </div>
-
-        <div class=" col-12 sm-6 col-md-8 col-lg-9">
-            <div class="row" id="secondLeadNews">
-                <!--SECOND LEAD NEWS -->
             </div>
         </div>
     </div>

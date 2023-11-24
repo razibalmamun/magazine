@@ -1,12 +1,12 @@
 .bg-top-menu {
-    background-color: #1b5171;
+    background-color: #124a65;
 }
 #top-nav.bg-top-menu li a {
     color: white;
 }
 .modify-trending label {
     margin-right: 10px;
-    background: #1b5171;
+    background: #124a65;
     padding: 5px;
     font-size: 13px;
     color: white;
@@ -15,4 +15,26 @@
 .modify-trending .btn-danger {
     background: #d9d9d9;
     color: black;
+}
+.filter-body {
+    background-color: #eff3f6;
+}
+.areaChose .btn-danger {
+    background-color: #124a65;
+}
+.areaChose .btn-danger:hover {
+    background: #195f81;
+    border-color: #124a65;
+}
+.category-ber {
+    background-color: #eff3f6;
+}
+.category-ber .btn-danger {
+    background-color: #124a65;
+}
+#top-nav.bg-top-menu li a.dropdown-item {
+    color: black;
+}
+a.feature-hyper {
+    color: white;
 }

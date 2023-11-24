@@ -1,7 +1,7 @@
 
 <div id="national" class="row section-container justify-content-between">
     <div class="national col-12 col-md-8  mt-3 col-lg-9">
-        <div class="nation-header d-flex justify-content-between align-items-center p-2 bg-light border-top border-bottom border-secondary shadow-sm">
+        <div class="nation-header category-ber d-flex justify-content-between align-items-center p-2 bg-light border-bottom border-secondary shadow-sm">
             <h4 class="m-0" >রাজনীতি</h4>
             <ul class="nav nav-tabs" role="tablist" id="NationalPills">
                 <li class="nav-item">
@@ -30,7 +30,7 @@
 
     <div class="education col-12 col-md-4 mt-3 col-lg-3">
         <div class="">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">শিক্ষা</h4>
                 <ul class="nav nav-tabs" role="tablist" id="EducationPills">
                     <li class="nav-item">

@@ -1,6 +1,6 @@
 <div class="mt-5">
     <div class="section-container">
-        <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+        <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
             <h4 class="m-0">বিনোদন</h4>
             <ul class="nav nav-tabs" role="tablist" id="EntertainPills">
                 <li class="nav-item">

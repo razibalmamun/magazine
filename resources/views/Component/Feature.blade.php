@@ -1,6 +1,6 @@
 <div class="mt-5 d-md-block d-none">
     <div class="section-container">
-        <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+        <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
             <h4 class="m-0">ফিচার</h4>
             <a href="/get-news-by-category/8" class="btn btn-danger rounded-pill">সকল</a>
         </div>
@@ -77,21 +77,13 @@
                 let news = response.data.news;
                // let order = 8;
                 for(let i = 0; i < news.length; i++){
-
-                //    for(let j = 0; j < order; j++){
-                     //   if(news[i].order == j) {
-                            $('#Feature').append(
-                                FeatureItem(news[i].id,news[i].title,news[i].image, news[i].ticker)
-                            )
-                //        }
-              //      }
+                    $('#Feature').append(
+                        FeatureItem(news[i].id,news[i].title,news[i].image, news[i].ticker ? news[i].ticker : '')
+                    )
                 }
                 featureSlickSlider(featureObj)
             }
         })
 
     });
-
-
-
 </script>

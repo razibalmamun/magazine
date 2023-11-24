@@ -1,8 +1,6 @@
-    <div id="layout_top_add" class="addBanner mt-3 d-flex justify-content-center">
+<div id="layout_top_add" class="addBanner mt-3 d-flex justify-content-center">
     <!-- TOP Layout Advertise -->
 </div>
-
-
 
 <div class="section-container">
     <div id="firstLead" class="mt-3 row  mb-3 d-flex justify-content-between">        
@@ -11,7 +9,7 @@
             <div id="mainLead">
                 <!--MAIN FIRST LEAD NEWS -->
             </div>
-            <div class="titleNews row border-top" id="bottomMainLead">
+            <div class="titleNews row" id="bottomMainLead">
                <!--BOTTOM MAIN LEAD -->
             </div>
         </div>
@@ -111,12 +109,10 @@
     Advertise('/advertise/home_lead_right_add', $('#home_lead_right'))
 
     function HomeFirstLead(){
-        axios.get(site.url('/get-all-news/1/lead_news/7/0')).then(async function(response){
+        axios.get(site.url('/get-all-news/1/lead_news/9/0')).then(async function(response){
             if(response.status === 200){
                 let data = response.data;
-              
-             
-
+            
                 //Side Lead News
                 function siteLeadNews(newsID,image,title,time){
                     $('#sideLeadNews').append(`
@@ -152,30 +148,34 @@
                                 let data = response.data;
                                 if(data.length > 0){
                                     $('#sideLeadNews').append(`
-                                        <a href="/get-live-news/${data[0].id}" class="news  p-0 link border-bottom mt-2 mb-2">
-                                            <div class="position-relative">
-                                                <img style="height: 65px;" class="image" src="${data[0].image}">
-                                                <div class="position-absolute text-center text-white " style="height: 20px;width: 90%;background: rgba(255,255,255,1);bottom: 0">
-                    
-                                                    <img src="https://www.pngall.com/wp-content/uploads/2018/03/Live-PNG-File.png" height="20px">
-                                                </div>
+                                    <a href="/get-live-news/${data[0].id}" class="news  p-0 link border-bottom mt-2 mb-2">
+                                        <div class="position-relative">
+                                            <img style="height: 65px;" class="image" src="${data[0].image}">
+                                            <div class="position-absolute text-center text-white " style="height: 20px;width: 90%;background: rgba(255,255,255,1);bottom: 0">
+                
+                                                <img src="https://www.pngall.com/wp-content/uploads/2018/03/Live-PNG-File.png" height="20px">
                                             </div>
-                                            <div>
-                                                <h5 class="title line-2" style="margin-bottom: 0px!important;">${data[0].title}</h5>
-                                                <p class="hour"><i class="fas  fa-clock" style="margin: 0 5px 0 0;"></i>${site.localeDate(data[0].date)}</p>
-                                            </div>
-                                        </a>
-                                    `)}
-                                }
-                            })
+                                        </div>
+                                        <div>
+                                            <h5 class="title line-2" style="margin-bottom: 0px!important;">${data[0].title}</h5>
+                                            <p class="hour"><i class="fas  fa-clock" style="margin: 0 5px 0 0;"></i>${site.localeDate(data[0].date)}</p>
+                                        </div>
+                                    </a>
+                                `)}
+                            }
+                        })
                         
                         //Main Lead
                         $('#mainLead').append(`
-                            <a id="mainLead" style="height: 535px;display: block" class="link" href="/get-news/${data[i].id}" >
-                                <img  class="image img-fluid" width="100%" src="${data[i].image}">
-                                <h2 class="mt-2 line-2">${data[i].title}</h2>
-                                <p class="line-2">${data[i].sort_description}</p>
-                            </a>
+                            <div class="d-flex">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <img  class="image img-fluid" width="100%" src="${data[i].image}">
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-0 p-2">
+                                    <h2><a href="/get-news/${data[i].id}" class="line-3">${data[i].title}</a></h2>
+                                    <p class="line-2">${data[i].sort_description}</p>
+                                </div>
+                            </div>
                          `);
                     }
                     
@@ -185,12 +185,16 @@
                         siteLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }else if(data[i].order == "4"){
                         siteLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
-                    }
+                    } 
 
                     //Bottom Leaed News
                     else if(data[i].order == "5"){
                         bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }else if(data[i].order == "6"){
+                        bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
+                    }else if(data[i].order == "7"){
+                        bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
+                    }else if(data[i].order == "8"){
                         bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }
 

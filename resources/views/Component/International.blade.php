@@ -1,6 +1,6 @@
 <div class="mt-5">
-    <div class="section-container">
-        <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+    <div class="section-container category-ber">
+        <div class="shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
             <h4 class="m-0">আন্তর্জাতিক</h4>
             <ul class="nav nav-tabs" role="tablist" id="InternationalPills">
                 <li class="nav-item">

@@ -1,7 +1,7 @@
 <div class="row section-container">
     <div class="col-12 col-sm-6 col-md-6 col-lg-6">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">অর্থনীতি</h4>
                 <ul class="nav nav-tabs" role="tablist" id="EconomyPills">
                     <li class="nav-item">
@@ -25,7 +25,7 @@
     </div>
     <div class="col-sm-6 col-12  col-md-6 col-lg-6">
         <div class="mt-5">
-            <div class="border-top shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
+            <div class="category-ber shadow-sm border-bottom border-secondary  p-2  d-flex justify-content-between align-items-center">
                 <h4 class="m-0">আইন-আদালত </h4>
                 <ul class="nav nav-tabs" role="tablist" id="LawPills">
                     <li class="nav-item">
