@@ -1,0 +1,4 @@
+[30-Jul-2022 13:34:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/bnbd24/public_html/bangla-admin/routes/auth.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/bangla-admin/routes/auth.php on line 13

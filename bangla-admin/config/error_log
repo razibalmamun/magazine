@@ -1,0 +1,4 @@
+[06-Feb-2023 07:50:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/bnbd24/public_html/bangla-admin/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/bangla-admin/config/filesystems.php on line 16
