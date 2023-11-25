@@ -33,7 +33,7 @@
             <div class="siteRight">
                 <div class="siteLanguage text-end f-16">
                     <label style="margin-right: 10px;" class="d-none d-sm-inline">সংস্করন </label>
-                    <a href="https://en.bnbd24.com" class="btn btn-default border">English</a>
+                    <!-- <a href="https://en.bnbd24.com" class="btn btn-default border">English</a> -->
                    <!-- <select id="language" class="">
                         <option>বাংলা</option>
                         <option value="english">ইংরেজি</option>

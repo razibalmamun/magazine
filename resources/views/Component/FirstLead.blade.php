@@ -168,12 +168,14 @@
                         //Main Lead
                         $('#mainLead').append(`
                             <div class="d-flex">
-                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                                    <img  class="image img-fluid" width="100%" src="${data[i].image}">
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-0 p-2">
-                                    <h2><a href="/get-news/${data[i].id}" class="line-3">${data[i].title}</a></h2>
-                                    <p class="line-2">${data[i].sort_description}</p>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                        <img  class="image img-fluid" width="100%" src="${data[i].image}">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-2 p-2">
+                                        <h2><a href="/get-news/${data[i].id}" class="line-3">${data[i].title}</a></h2>
+                                        <p class="line-2">${data[i].sort_description}</p>
+                                    </div>
                                 </div>
                             </div>
                          `);
