@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+/vendor/bangla-admin
 /bangla-admin/storage
 /bangla-admin/public/images
 /backupold
