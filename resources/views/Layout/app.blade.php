@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <title>যখনই ঘটনা তখনই সংবাদ | Breaking News</title>
+    <title>যখনই ঘটনা তখনই সংবাদ | Ses Bela</title>
 {{--    <title>@yield('title')</title>--}}
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
