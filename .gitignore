@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor
 /bangla-admin
+/backupold
 .env
 .env.backup
 .phpunit.result.cache
