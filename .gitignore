@@ -3,7 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
-/bangla-admin
+/bangla-admin/storage
+/bangla-admin/public/images
 /backupold
 .env
 .env.backup

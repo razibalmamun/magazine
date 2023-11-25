@@ -1,0 +1,8 @@
+[31-Dec-2022 11:07:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/bnbd24/public_html/bangla-admin/app/Models/Latest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/bangla-admin/app/Models/Latest.php on line 8
+[20-Feb-2023 07:00:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/bnbd24/public_html/bangla-admin/app/Models/Latest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bnbd24/public_html/bangla-admin/app/Models/Latest.php on line 8

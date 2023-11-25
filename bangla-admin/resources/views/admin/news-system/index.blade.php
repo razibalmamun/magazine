@@ -1,0 +1,1 @@
+<img width="100%" src="{{asset('assets/images/news_add_system.jpg')}}" />
