@@ -93,16 +93,16 @@
                 });
 
                 //Side News
-                GetData(`/get-all-news/${id}/side_bar_news/6/0/sub`,function (response){
+                GetData(`/get-all-news/${id}/side_bar_news/5/0/sub`,function (response){
                     if(response.status === 200){
                         SideNews.empty();
                         let data = response.data;
                         if(data.length > 0){
-                            let order = 7;
+                            let order = 5;
                             for(let i = 0; i < data.length; i++){
                                 for(let j = 0; j < order; j++){
                                     if(data[i].order == j+1){
-                                        NationalSideNews(data[i].id,data[i].title,data[i].date);
+                                        NationalSideNews(data[i].id,data[i].title, data[i].image,data[i].date);
                                     }
                                 }
                             }
@@ -133,17 +133,12 @@
         })
 
 
-        GetData('/get-all-news/2/side_bar_news/6/4', function(response){
+        GetData('/get-all-news/2/side_bar_news/5/4', function(response){
             if(response.status === 200){
                 let data = response.data;
                // let order = 7;
                 for(let i = 0; i < data.length; i++){
-                    NationalSideNews(data[i].id,data[i].title,data[i].date);
-                 //   for(let j = 0; j < order; j++){
-                  //      if(data[i].order == j){
-                           // NationalSideNews(data[i].id,data[i].title,data[i].date);
-                     //   }
-                //    }
+                    NationalSideNews(data[i].id,data[i].title, data[i].image, data[i].date);
                 }
             }
         })
@@ -163,11 +158,12 @@
         `)
         }
 
-        function NationalSideNews(newsID,title,date){
+        function NationalSideNews(newsID,title,image,date){
             $('#nationlsideNews').append(`
             <a href="/get-news/${newsID}" class="news col-12 col-sm-6 p-2 pb-3  col-md-6 col-lg-12 link border-bottom">
+                <img class="image" style="height: 70px;" src="${image}">
                 <div>
-                    <h5 style="margin-bottom: 6px!important;" class="title line-1">${title}</h5>
+                    <h5 style="margin-bottom: 6px!important;" class="title line-2">${title}</h5>
                     <div class="hour"><i class="fas  fa-clock" style="margin: 0 5px 0 0;"></i>${site.localeDate(date)}</div>
                 </div>
             </a>
@@ -195,17 +191,17 @@
             })
 
 
-            GetData('/get-all-news/2/side_bar_news/6/0', function(response){
+            GetData('/get-all-news/2/side_bar_news/5/0', function(response){
                 if(response.status === 200){
                     SideNews.empty();
                     BodyLoaderOFF();
                     let data = response.data;
-                    let order = 7;
+                    let order = 5;
                     for(let i = 0; i < data.length; i++){
 
-                        for(let j = 0; j < order; j++){
+                        for(let j = 0; j < order; j++){                            
                             if(data[i].order == j){
-                                NationalSideNews(data[i].id,data[i].title,data[i].date);
+                                NationalSideNews(data[i].id,data[i].title, data[i].image, data[i].date);
                             }
                         }
                     }

@@ -19,7 +19,7 @@
         @include('Component.SampleComonent1')
         @include('Component.SampleComponent2')
         @include('Component.SampleComponent3')
-        @include('Component.Video')
-        @include('Component.ImageGallery')
+        <!-- @include('Component.Video')
+        @include('Component.ImageGallery') -->
         @include('Component.Feature')
 @endsection

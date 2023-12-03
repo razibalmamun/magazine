@@ -74,6 +74,11 @@
                     }
                 }
             }
+            nav.append(`
+                <li class="nav-item">
+                    <a class="nav-link top-menu" href="/others">অন্যান্য</a>
+                </li>
+            `);
         }
     }).catch(function (error){
         console.log(error)

@@ -84,6 +84,7 @@
         function btn_click(newsId) {
             let id = newsId;
             let order = $('#input_' + id).val();
+            let type = $("#type").val();
 
             console.log(order)
 
@@ -94,6 +95,7 @@
                     "_token": "{{ csrf_token() }}",
                     id: id,
                     order: order,
+                    type: type
                 },
                 success: function(response) {
                     $.notify(response.message, "success");
@@ -120,20 +122,34 @@
                     if (response) {
                         $('#list').empty();
                         $.each(response, function(key, item) {
-                            $('#list').append('<div class="news-item row">' +
+                            let listorder = '<div class="news-item row">' +
                                 '<div class="col-4">' + item.title + '</div>' +
                                 '<div class="col-2">' + item.type + '</div>' +
                                 '<div class="col-2">' + item.date + '(Y-m-d)</div>' +
-                                '<div class="col-2">' +
-                                '<input type="text" id="input_' + item.id + '" value="' +
-                                item
-                                .order +
-                                '" class="form-control">' +
-                                '</div>' +
-                                '<div class="col-2"><button class="btn" onclick="btn_click(' +
-                                item.id + ');">Update</button></div>' +
-                                '</div><hr>');
+                                '<div class="col-2">';
 
+                                if(item.type == 'lead_news' || item.type == 'second_lead') {
+                                    listorder += '<select id="input_' + item.id + '" class="form-control">';
+                                    listorder += '<option value="">No box</option>';
+                                    for (let i = 1; i < 10; i++) {
+                                        listorder += '<option value="' + i +'"';
+                                        listorder += item.order == i ? 'selected' : '';
+                                        listorder += '>Box '+i+'</option>'
+                                    }
+                                    listorder += '<option value="15"';
+                                    listorder += item.order == 15 ? 'selected' : '';
+                                    listorder += '>No Box</option>'
+                                    listorder += '</select>';
+                                } else {
+                                    listorder += '<input type="text" id="input_' + item.id + '" value="' + item.order +'" class="form-control">';
+                                }
+
+                                listorder += '</div>';
+                                listorder += '<div class="col-2"><button class="btn" onclick="btn_click(' +
+                                item.id + ');">Update</button></div>' +
+                                '</div><hr>';
+
+                            $('#list').append(listorder);
                         });
                     }
                 }

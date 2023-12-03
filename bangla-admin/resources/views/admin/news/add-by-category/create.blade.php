@@ -62,11 +62,11 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="summernote">Details</label>
-                                        <textarea id="details" name="details">Place <em>some</em> <u>text</u> <strong>here</strong></textarea>
+                                        <textarea id="details" name="details"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="sort_description">Sort Description</label>
-                                        <textarea id="sort_description" name="sort_description">Place <em>sort</em> <u>description</u> <strong>here</strong></textarea>
+                                        <textarea id="sort_description" name="sort_description"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -110,11 +110,22 @@
                                         value="{{ $categoryId }}" />
                                     <input type="hidden" id="category_name" name="category_name"
                                         value="{{ $categoryName }}" />
+
                                     <div class="form-group">
                                         <label for="order">Order</label>
-                                        <input type="number" min="1" name="order" class="form-control"
-                                            id="order" placeholder="Enter order" required>
+                                        <input type="number" min="1" name="order" class="form-control" id="order" placeholder="Enter order">
                                     </div>
+
+                                    <div class="form-group">
+                                        <label for="order">or Lead Box</label>
+                                        <select class="form-control" name="order_box">
+                                            <option value="15">No Need</option>
+                                            @for ($i = 1; $i < 11; $i++)
+                                                <option value="{{$i}}">Box {{$i}}</option>
+                                            @endfor
+                                        </select>
+                                    </div>
+
                                     <div class="form-group">
                                         <label for="video_link">Video link</label>
                                         <input type="text" min="1" name="video_link" class="form-control"

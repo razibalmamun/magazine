@@ -1,8 +1,8 @@
 const site = {
     //front_site_url : "http://127.0.0.1:8000",
-    front_site_url : "https://newspaper.kidarkar.com/",
+    front_site_url : "http://localhost/kidarkar-newspaper/",
     
-    base_url: "https://newspaper.kidarkar.com/bangla-admin/public/api",
+    base_url: "http://localhost/kidarkar-newspaper/bangla-admin/public/api",
     //base_url: "https://admin.breakingnews24bd.com/api",
     url: function (getUrl){
         return this.base_url+getUrl;

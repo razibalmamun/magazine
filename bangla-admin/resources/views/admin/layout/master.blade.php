@@ -192,7 +192,7 @@
             <div class="float-right d-none d-sm-block">
                 <b>Version</b> 1.0.0
             </div>
-            <strong>Copyright &copy; <?= Date('Y') ?> <a href="#">BrekingNews</a>.</strong> All rights
+        <strong>Copyright &copy; <?= Date('Y') ?> <a href="#">Ses Bela</a>.</strong> All rights
             reserved.
         </footer>
 

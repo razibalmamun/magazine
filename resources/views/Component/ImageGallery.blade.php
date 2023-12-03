@@ -147,10 +147,9 @@
                 });
                 lightGallery(galleryEventsDemo2);
 
-
-
-
                 lightGallery(document.getElementById('galleryFirstImage'));
+
+                BodyLoaderOFF();
             }
         })
     }

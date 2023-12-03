@@ -11,4 +11,9 @@ class HomeController extends Controller
         $seo = SeoModel::where('page_name','home')->get();
         return view('Pages.HomePage',["Seo" => $seo]);
     }
+
+    function Others(){
+        $seo = SeoModel::where('page_name','home')->get();
+        return view('Pages.OthersPage',["Seo" => $seo]);
+    }
 }

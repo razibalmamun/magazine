@@ -138,13 +138,13 @@
                             <div class="news-date">${site.localeFullDate(news.date)}  <img src="https://www.svgimages.com/svg-image/s5/tag-icon-256x256.png" height="15px"> ${catName} </div>
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <a class="nav-link icon-link" href="https://www.facebook.com/sharer/sharer.php?u=${site.front_site_url+''+getUrl}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="nav-link icon-link" href="https://www.facebook.com/sharer/sharer.php?u=${site.front_site_url+''+getUrl}" target="_blank"><img height="15px" src="https://newspaper.kidarkar.com/img/f.png" alt="site logo"></a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link icon-link" href="http://twitter.com/share?text=text goes here&url=${site.front_site_url+''+getUrl}" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a class="nav-link icon-link" href="http://twitter.com/share?text=text goes here&url=${site.front_site_url+''+getUrl}" target="_blank"><img height="15px" src="https://newspaper.kidarkar.com/img/t.png" alt="site logo"></a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link icon-link" href="whatsapp://send?text=${site.front_site_url+''+getUrl}"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="nav-link icon-link" href="whatsapp://send?text=${site.front_site_url+''+getUrl}"><img height="15px" src="https://newspaper.kidarkar.com/img/w.png" alt="site logo"></a>
                                 </li>
                                 <li class="nav-item d-none d-sm-block">
                                     <a class="nav-link icon-link newsLinkCopy" href="whatsapp://send?${site.front_site_url+''+getUrl}"><i class="fas fa-copy"></i></a>
@@ -178,7 +178,7 @@
                     </div>
                     <hr>
                     <div class="text-center">
-                        <img height="20px" src="https://bnbd24.com/img/logo-color.png">
+                        <img height="20px" src="https://newspaper.kidarkar.com/img/logo-color.png">
                     </div>
                     <hr>
                 `)

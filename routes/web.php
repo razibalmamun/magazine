@@ -31,6 +31,7 @@ Route::get('/test', function (){
 });
 
 Route::get('/', [HomeController::class, "Page"]);
+Route::get('/others', [HomeController::class, "Others"]);
 
 Route::get('/Category/National', function () {
     return view('Pages.CategoryPage');

@@ -136,7 +136,7 @@
                  //   let order = 5;
                     $(element).empty();
                     for(let i = 0; i < data.length; i++){
-                        LeadNews(data[i].id,data[i].image,data[i].title,data[i].date)
+                        LeadNews(data[i].id,data[i].image,data[i].title,data[i].image,data[i].date)
                      /*   for(let j = 0; j < order; j++){
                             if(data[i].order == j+1){
                                 LeadNews(data[i].id,data[i].image,data[i].title,data[i].date)
@@ -167,7 +167,7 @@
                  //   let order = 5;
                     $(element).empty();
                     for(let i = 0; i < data.length; i++){
-                         LeadNews(data[i].id,data[i].title,data[i].date)
+                         LeadNews(data[i].id,data[i].title, data[i].image,data[i].date)
                      /*   for(let j = 0; j < order; j++){
                             if(data[i].order == j+1){
                                 LeadNews(data[i].id,data[i].title,data[i].date)
@@ -175,9 +175,10 @@
                         } */
                     }
 
-                    function LeadNews(newsID,title,date){
+                    function LeadNews(newsID,title,image,date){
                         $(element).append(`
                            <a href="/get-news/${newsID}" class="news link border-bottom ">
+                                <img class="image" style="height: 70px;" src="${image}">    
                                 <div>
                                     <h5 class="title line-2" style="margin-bottom: 3px!important;">${title}</h5>
                                     <div class="hour"><i class="fas  fa-clock" style="margin: 0 5px 0 0;"></i>${site.localeDate(date)}</div>

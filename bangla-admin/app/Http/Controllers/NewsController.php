@@ -99,7 +99,14 @@ class NewsController extends Controller
         $news->sort_description = $request->sort_description;
         $news->category_id = 0;
         $news->sub_category_id = 0;
-        $news->order = $request->order;
+
+        if($request->order_box) {
+            News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
+            $news->order = $request->order_box;
+        } else {
+            $news->order = $request->order;
+        }
+        
         $news->type = $request->type;
         $news->image = $imagePath;
         $news->date = $request->date ? $request->date : date('Y-m-d h:i:s');
@@ -191,7 +198,12 @@ class NewsController extends Controller
         $news = News::find($request->id);
         $news->title = $request->title;
         $news->sort_description = $request->sort_description;
-        $news->order = $request->order;
+        if($request->order_box) {
+            News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
+            $news->order = $request->order_box;
+        } else {
+            $news->order = $request->order;
+        }
         $news->type = $request->type;
         $news->latest = $request->latest ?? 0;
         $news->news_marquee = $request->news_marquee ?? 0;
@@ -485,6 +497,10 @@ class NewsController extends Controller
 
     public function orderUpdate(Request $request)
     {
+        if($request->type) {
+            News::where(['type' => $request->type, 'order' => $request->order])->update(['order' => 15]);
+        }
+
         $news = News::find($request->id);
         $news->order = $request->order;
         $news->save();

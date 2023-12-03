@@ -97,6 +97,15 @@
                                             class="form-control" id="order" placeholder="Enter order">
                                     </div>
                                     <div class="form-group">
+                                        <label for="order">or Lead Box</label>
+                                        <select class="form-control" name="order_box">
+                                            <option value="15">No Need</option>
+                                            @for ($i = 1; $i < 11; $i++)
+                                                <option value="{{$i}}" {{ $news->order == $i ? 'selected' : '' }}>Box {{$i}} {{ $news->order == $i ? $news->type : ''}}</option>
+                                            @endfor
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
                                         <label for="video_link">Video link</label>
                                         <input type="text" value="{{ $news->details->video_link ?? '' }}"
                                             name="video_link" class="form-control" id="video_link"

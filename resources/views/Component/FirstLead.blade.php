@@ -26,14 +26,9 @@
         </div>
 
         <div class="flRight col-12 col-sm-12 col-md-6 col-lg-3 border-left" >
-            
             <!-- ramadan start --->
 
             <!-- ramadan end ---> 
-            <!--               Advertise   --->
-            <div id="home_lead_right" class="advertise mt-0 mb-1 text-center overflow-hidden">
-                <!-- Home Lead Right Add -->
-            </div>
             <div class="motamot">
                 <h5 class="text-center p-2 mb-0 border-top border-bottom fw-bold">মতামত</h5>
                 <ul  class="list-group list-group-flush" id="motamotSection">
@@ -41,7 +36,12 @@
                 </ul>
             </div>
 
-            <div class="corona">
+            <!--               Advertise   --->
+            <div id="home_lead_right" class="advertise mt-0 mb-1 text-center overflow-hidden">
+                <!-- Home Lead Right Add -->
+            </div>
+
+            <!-- <div class="corona">
                 <h5 class="text-center p-2 border-top border-bottom mt-1 mb-0 fw-bold">করোনা আপডেট</h5>
                 <div class="coronaTable d-flex">
                     <div class="coronaTableItem">
@@ -91,8 +91,7 @@
                         <button class="cprev btn btn-sm btn-secondary rounded-pill m-1"><i class="fas fa-angle-right"></i></button>
                     </div>
                 </div>
-            </div>
-
+            </div> -->
         </div>
     </div>
 </div>
@@ -169,11 +168,11 @@
                         $('#mainLead').append(`
                             <div class="d-flex">
                                 <div class="row">
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-8">
                                         <img  class="image img-fluid" width="100%" src="${data[i].image}">
                                     </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-2 p-2">
-                                        <h2><a href="/get-news/${data[i].id}" class="line-3">${data[i].title}</a></h2>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 pt-2 p-2">
+                                        <h2><a href="/get-news/${data[i].id}" class="">${data[i].title}</a></h2>
                                         <p class="line-2">${data[i].sort_description}</p>
                                     </div>
                                 </div>
