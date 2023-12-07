@@ -36,6 +36,7 @@ Route::get('/change-vote/{id}/{prev}/{new}', [App\Http\Controllers\API\VoteContr
 /**
  * news
  */
+Route::get('/get-box-news/{type}/{limit}', [App\Http\Controllers\API\NewsController::class, 'getBoxNews']);
 Route::get('/get-all-news/{categoryId}/{type}/{limit}/{skip}/{sub?}', [App\Http\Controllers\API\NewsController::class, 'getAllNews']);
 Route::get('/get-news/{id}', [App\Http\Controllers\API\NewsController::class, 'getNews']);
 Route::get('/get-news-by-category/{categoryId}/{limit}/{skip}', [App\Http\Controllers\API\NewsController::class, 'getAllNewsByCategory']);

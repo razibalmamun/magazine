@@ -41,7 +41,6 @@
 
 <script>
 
-
     /*GetData('/get-all-live-news/1/0', function (response){
 
         if(response.status === 200){
@@ -70,12 +69,11 @@
     Advertise('/advertise/home_second_lead_left_add',$('#home_second_lead_left'))
 
     function HomeSecondLead(){
-        GetData('/get-all-news/1/second_lead/9/0', function(response){
+        GetData('/get-box-news/second_lead/9', function(response){
             if(response.status === 200){
                 let data = response.data;
                 let order = 9;
                 for(let i = 0;i < data.length; i++){
-
                     for(let j = 0;j < order; j++){
                         if(data[i].order == j+1){
                             SecondLead(data[i].id,data[i].title, data[i].image, data[i].date);
@@ -104,9 +102,7 @@
             `);
             }
         })
-
-
-
+        
         GetData('/get-all-latest/24/0', function (response){
             if(response.status === 200){
                 let data = response.data;
@@ -129,9 +125,6 @@
                 }
             }
         });
-
-
-
 
         GetData('/get-all-sorbadhik/12', function (response){
             if(response.status === 200){

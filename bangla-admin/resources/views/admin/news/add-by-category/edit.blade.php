@@ -91,13 +91,13 @@
                                             @endif
                                         </select>
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="order">Order</label>
                                         <input type="number" min="1" name="order" value="{{ $news->order }}"
                                             class="form-control" id="order" placeholder="Enter order">
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
-                                        <label for="order">or Lead Box</label>
+                                        <label for="order">Lead Box</label>
                                         <select class="form-control" name="order_box">
                                             <option value="15">No Need</option>
                                             @for ($i = 1; $i < 11; $i++)

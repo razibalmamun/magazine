@@ -65,11 +65,12 @@ class NewsController extends Controller
         if ($categoryId == 1) {
             $newsIds = News::where('published', 1)->join('news_categories', 'news_categories.news_id', 'news.id')
             ->where('news_categories.category_id', $categoryId)
-            // ->orderByRaw("DATE_FORMAT('Y-m-d',news.date), DESC")
+            // ->orderByRaw("news.order ASC, news.updated_at desc")->groupBy('news.order')
             // ->orderBy('news.date','DESC')
             ->orderBy('news.order', 'asc')
             ->where('news.date', '<', date('Y-m-d H:i:s', strtotime(Date('Y-m-d') . ' +1 day')))
             ->where('type', $type)
+            ->where('news.order', '>', 0)
             ->select('news.id')
             ->skip($skip)
             ->take($limit)
@@ -91,6 +92,24 @@ class NewsController extends Controller
             $news[] = $this->newsById($id->id);
         }
 
+        return response()->json($news);
+    }
+
+    public function getBoxNews($type, $limit): \Illuminate\Http\JsonResponse
+    {
+        $news = [];
+        for ($boxNumber=1; $boxNumber <= $limit; $boxNumber++) { 
+            $newsId = News::where('published', 1)
+            ->select('news.id')
+            ->where('type', $type)
+            ->where('news.order', $boxNumber)        
+            ->orderBy('news.id', 'desc')
+            ->first();
+            
+            if($newsId) {
+                $news[] = $this->newsById($newsId->id);
+            }
+        }
         return response()->json($news);
     }
 

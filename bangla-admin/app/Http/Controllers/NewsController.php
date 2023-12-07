@@ -85,9 +85,9 @@ class NewsController extends Controller
             'category_id' => 'required',
             'type' => 'required',
             'details' => 'required',
-            'representative' => 'required',
-            'keyword' => 'required',
-            'order' => 'required',
+            //'representative' => 'required',
+            //'keyword' => 'required',
+            //'order' => 'required',
             'category' => 'required'
         ]);
 
@@ -101,7 +101,7 @@ class NewsController extends Controller
         $news->sub_category_id = 0;
 
         if($request->order_box) {
-            News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
+            // News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
             $news->order = $request->order_box;
         } else {
             $news->order = $request->order;
@@ -187,9 +187,9 @@ class NewsController extends Controller
             'type' => 'required',
             'details' => 'required',
             'date' => 'required',
-            'representative' => 'required',
-            'keyword' => 'required',
-            'order' => 'required',
+            //'representative' => 'required',
+            //'keyword' => 'required',
+            //'order' => 'required',
             'category' => 'required',
         ]);
 
@@ -199,7 +199,7 @@ class NewsController extends Controller
         $news->title = $request->title;
         $news->sort_description = $request->sort_description;
         if($request->order_box) {
-            News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
+            // News::where(['type' => $request->type, 'order' => $request->order_box])->update(['order' => 15]);
             $news->order = $request->order_box;
         } else {
             $news->order = $request->order;
@@ -498,7 +498,7 @@ class NewsController extends Controller
     public function orderUpdate(Request $request)
     {
         if($request->type) {
-            News::where(['type' => $request->type, 'order' => $request->order])->update(['order' => 15]);
+            // News::where(['type' => $request->type, 'order' => $request->order])->update(['order' => 15]);
         }
 
         $news = News::find($request->id);

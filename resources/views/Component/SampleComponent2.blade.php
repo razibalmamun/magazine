@@ -136,7 +136,7 @@
                  //   let order = 5;
                     $(element).empty();
                     for(let i = 0; i < data.length; i++){
-                        LeadNews(data[i].id,data[i].image,data[i].title,data[i].image,data[i].date)
+                        LeadNews(data[i].id,data[i].image,data[i].title,data[i].date)
                      /*   for(let j = 0; j < order; j++){
                             if(data[i].order == j+1){
                                 LeadNews(data[i].id,data[i].image,data[i].title,data[i].date)

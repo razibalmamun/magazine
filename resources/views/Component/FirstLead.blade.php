@@ -108,7 +108,7 @@
     Advertise('/advertise/home_lead_right_add', $('#home_lead_right'))
 
     function HomeFirstLead(){
-        axios.get(site.url('/get-all-news/1/lead_news/9/0')).then(async function(response){
+        axios.get(site.url('/get-box-news/lead_news/9')).then(async function(response){
             if(response.status === 200){
                 let data = response.data;
             
@@ -137,6 +137,8 @@
                     </a>
                 `);
                 }
+
+                
 
                 for(let i = 0;data.length > i;i++){
                     
@@ -186,19 +188,20 @@
                         siteLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }else if(data[i].order == "4"){
                         siteLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
-                    } 
+                    }  else if(data[i].order == "5"){
+                        siteLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
+                    }
 
                     //Bottom Leaed News
-                    else if(data[i].order == "5"){
-                        bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
-                    }else if(data[i].order == "6"){
+                    else if(data[i].order == "6"){
                         bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }else if(data[i].order == "7"){
                         bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }else if(data[i].order == "8"){
                         bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
+                    }else if(data[i].order == "9"){
+                        bottomLeadNews(data[i].id,data[i].image,data[i].title, data[i].date)
                     }
-
                 }
             }
         }).catch(function(error){

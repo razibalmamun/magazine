@@ -95,14 +95,14 @@
                                     <div class="form-group">
                                         <label for="representative">Representative</label>
                                         <input type="text" name="representative" class="form-control" id="representative"
-                                            placeholder="Enter representative" required>
+                                            placeholder="Enter representative">
                                     </div>
                                     <div class="form-group">
                                         <label>Keyword</label>
                                         <div class="select2-purple">
                                             <select class="select2" name="keyword[]" multiple="multiple"
                                                 data-placeholder="Select keyword" data-dropdown-css-class="select2-purple"
-                                                style="width: 100%;" required>
+                                                style="width: 100%;">
                                             </select>
                                         </div>
                                     </div>
@@ -111,13 +111,13 @@
                                     <input type="hidden" id="category_name" name="category_name"
                                         value="{{ $categoryName }}" />
 
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="order">Order</label>
                                         <input type="number" min="1" name="order" class="form-control" id="order" placeholder="Enter order">
-                                    </div>
+                                    </div> -->
 
                                     <div class="form-group">
-                                        <label for="order">or Lead Box</label>
+                                        <label for="order">Lead Box</label>
                                         <select class="form-control" name="order_box">
                                             <option value="15">No Need</option>
                                             @for ($i = 1; $i < 11; $i++)
